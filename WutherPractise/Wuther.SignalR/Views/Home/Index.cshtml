@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<button id="submit">提交</button>
+<div id="result" style="color: green;font-weight:bold;"></div>
+<script src="~/signalr.js"></script>
+<script>
+    let connection = null;
+    setupConnection = () => {
+        connection = new signalR.HubConnectionBuilder()
+            .withUrl("/count")
+            .build();
+    }
+    setupConnection();
+    connection.on("someFunc", function(obj) {
+        const resultDiv = document.getElementById("result");
+        resultDiv.innerHTML = "Someone called this,parameters:" + obj.random;
+    })
+
+    connection.on("ReceiveUpdate", (update) => {
+        const resultDiv = document.getElementById("result");
+        resultDiv.innerHTML = update;
+    })
+
+    connection.on("finished", function() {
+        connection.stop();
+        const resultDiv = document.getElementById("result");
+        resultDiv.innerHTML = "Finished";
+    })
+
+    connection.start()
+        .catch(err => console.error(err.toString()));
+
+
+
+    document.getElementById("submit").addEventListener("click", e => {
+        e.preventDefault();
+        fetch("/api/count",
+                {
+                    method:"POST"
+                })
+            .then(response => response.text())
+            .then(id=>connection.invoke("GetLatestCount",id));
+    });
+
+</script>
+
+

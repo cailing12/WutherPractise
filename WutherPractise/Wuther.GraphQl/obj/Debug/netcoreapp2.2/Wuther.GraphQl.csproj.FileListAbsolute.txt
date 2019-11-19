@@ -1,0 +1,14 @@
+F:\MyProjects\WutherPractise\WutherPractise\Wuther.GraphQl\bin\Debug\netcoreapp2.2\Wuther.GraphQl.deps.json
+F:\MyProjects\WutherPractise\WutherPractise\Wuther.GraphQl\bin\Debug\netcoreapp2.2\Wuther.GraphQl.runtimeconfig.json
+F:\MyProjects\WutherPractise\WutherPractise\Wuther.GraphQl\bin\Debug\netcoreapp2.2\Wuther.GraphQl.runtimeconfig.dev.json
+F:\MyProjects\WutherPractise\WutherPractise\Wuther.GraphQl\bin\Debug\netcoreapp2.2\Wuther.GraphQl.dll
+F:\MyProjects\WutherPractise\WutherPractise\Wuther.GraphQl\obj\Debug\netcoreapp2.2\Wuther.GraphQl.csprojAssemblyReference.cache
+F:\MyProjects\WutherPractise\WutherPractise\Wuther.GraphQl\obj\Debug\netcoreapp2.2\Wuther.GraphQl.csproj.CoreCompileInputs.cache
+F:\MyProjects\WutherPractise\WutherPractise\Wuther.GraphQl\obj\Debug\netcoreapp2.2\Wuther.GraphQl.RazorAssemblyInfo.cache
+F:\MyProjects\WutherPractise\WutherPractise\Wuther.GraphQl\obj\Debug\netcoreapp2.2\Wuther.GraphQl.RazorAssemblyInfo.cs
+F:\MyProjects\WutherPractise\WutherPractise\Wuther.GraphQl\obj\Debug\netcoreapp2.2\Wuther.GraphQl.AssemblyInfoInputs.cache
+F:\MyProjects\WutherPractise\WutherPractise\Wuther.GraphQl\obj\Debug\netcoreapp2.2\Wuther.GraphQl.AssemblyInfo.cs
+F:\MyProjects\WutherPractise\WutherPractise\Wuther.GraphQl\obj\Debug\netcoreapp2.2\Wuther.GraphQl.RazorTargetAssemblyInfo.cache
+F:\MyProjects\WutherPractise\WutherPractise\Wuther.GraphQl\bin\Debug\netcoreapp2.2\Wuther.GraphQl.pdb
+F:\MyProjects\WutherPractise\WutherPractise\Wuther.GraphQl\obj\Debug\netcoreapp2.2\Wuther.GraphQl.dll
+F:\MyProjects\WutherPractise\WutherPractise\Wuther.GraphQl\obj\Debug\netcoreapp2.2\Wuther.GraphQl.pdb
